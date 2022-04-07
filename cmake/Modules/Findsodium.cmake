@@ -24,7 +24,7 @@ find_library(SODIUM_LIBRARY NAMES sodium libsodium
 set(SODIUM_LIBRARIES ${SODIUM_LIBRARY})
 set(SODIUM_INCLUDE_DIRS ${SODIUM_INCLUDE_DIR})
 
-find_package_handle_standard_args(Sodium DEFAULT_MSG
+find_package_handle_standard_args(sodium DEFAULT_MSG
   SODIUM_LIBRARY SODIUM_INCLUDE_DIR)
 
 get_property(_type CACHE SODIUM_ROOT PROPERTY TYPE)
