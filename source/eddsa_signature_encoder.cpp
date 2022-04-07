@@ -1,4 +1,5 @@
 #include "eddsa_signature_encoder.h"
+#include <cassert>
 #include <sodium/crypto_sign.h>
 #include <cstdint>
 #include <algorithm>
